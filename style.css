@@ -5,29 +5,42 @@ body {
     line-height: 1.6;
 }
 
-nav {
-    margin: 
-}
-
 ul {
     font-family: 'Roboto';
     font-style: normal;
+    font-weight: 500;
     list-style-type: none;
     display: flex;
 }
 
-ul > li > a {
-    padding: 20px;
-    text-decoration: none;
-    color: white;
+ul > li {
+    flex: auto;
 }
 
+ul > li > a {
+    text-decoration: none;
+}
 
-.hero-rectangle {
-    position: absolute;
-    width: 1440px;
-    height: 1024px;
-    left: 0px;
-    top: 0px;
-    background: #4C0027;
+.hero-subheader {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    font-size: 48px;
+}
+
+.hero-container {
+    display: flex;
+}
+
+.hero-header {
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 48px;
+    font-style: normal;
+}
+
+img {
+    width: 400px;
+    height: 400px;
 }
