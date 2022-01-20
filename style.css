@@ -1,8 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    margin: 40px 40px;
-    padding: 10px 20px;
-    max-width: 650px;
     line-height: 1.6;
+    padding: 10px 100px;
+    margin: 40px auto;
+}
+
+.container {
+    background-color: #4C0027;
+}
+
+.mauve-bg {
+}
+
+nav {
+    max-width: 500px;
 }
 
 ul {
@@ -13,20 +28,21 @@ ul {
     display: flex;
 }
 
-ul > li {
+ul>li {
     flex: auto;
 }
 
-ul > li > a {
+ul>li>a {
+    color: white;
     text-decoration: none;
 }
 
 .hero-subheader {
     font-family: 'Montserrat';
-    font-weight: bold;
     font-style: normal;
-    display: flex;
-    font-size: 48px;
+    padding-top: 50px;
+    max-width: 900px;
+    color: #E8AFCE;
 }
 
 .hero-container {
@@ -35,12 +51,175 @@ ul > li > a {
 
 .hero-header {
     font-family: 'Montserrat';
-    font-weight: bold;
-    font-size: 48px;
+    font-weight: 800;
     font-style: normal;
+    display: flex;
+    color: white;
+    line-height: 117px;
+    font-size: 36px;
+}
+
+.hero-spacer {
+    margin: 10px;
+    padding: 50px;
 }
 
 img {
     width: 400px;
     height: 400px;
 }
+
+/* SECTION 2 - BANNER */
+
+.tips-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+    color: #4C0027;
+    text-align: center;
+    padding: 5px;
+    margin: 25px;
+
+}
+
+.banner {
+    border: 1px solid gray;
+    border-radius: 25px;
+    margin: 5% 0px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-text {
+    flex: 1;
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 54px;
+    padding-left: 100px;
+}
+
+.sticky-right {
+    text-align: center;
+    align-items: center;
+}
+
+
+/* SECTION 3 */
+
+.sec-3 {
+    background-color: #E8AFCE;
+}
+
+.symptoms-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+    color: #4C0027;
+    text-align: center;
+    padding: 5px;
+    margin: 25px;
+
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Roboto';
+    background-color: white;
+}
+
+table, th, td {
+    border: 3px solid purple;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 20px;
+    text-align: center;
+}
+
+.faq-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+    color: #4C0027;
+    text-align: center;
+    margin: 25px;
+    padding: 5px;
+}
+
+.faq-banner {
+    font-family: 'Roboto';
+    border: 1px solid #E8AFCE;
+    border-radius: 25px;
+    margin: 5% 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.faq-title {
+    font-weight: 600;
+    font-size: larger;
+    padding: 10px;
+}
+
+
+/* SECTION 5 YT */
+
+.yt-header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    font-weight: bold;
+    color: #4C0027;
+    text-align: center;
+    margin: 25px;
+    padding: 5px;
+}
+
+.yt-embed {
+    margin: auto;
+    width: 50%;
+}
+
+footer {
+    font-family: 'Roboto';
+    margin-top: 100px;
+    background-color: #4C0027;
+    color: whitesmoke;
+    padding: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover { 
+    background-color: #E8AFCE;
+    color: #4C0027;
+}
+
+.footer-credits {
+    float: left;
+}
+
+.socials {
+    padding-top: 25px;
+}
+
+.socialicon {
+    width: 35px;
+    padding: 0 10px;
+    height: 35px;
+}
+
